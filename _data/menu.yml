@@ -23,7 +23,7 @@ entries:
       show_more_text: See more posts...
       show_more_url: example2-archive.html
   
-    - title: mysql
+  - title: mysql
     post_list:
       category: mysql
       show_more: true
