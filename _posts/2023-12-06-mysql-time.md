@@ -1,6 +1,7 @@
 ---
 layout: post
-category: mysql
+title: mysql 时间格式之间的转换
+category: mysql 
 ---
 
 获取当前时间：
