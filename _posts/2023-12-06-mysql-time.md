@@ -13,5 +13,5 @@ SELECT unix_timestamp(now()); -- 1701848434
 <pre>
 （秒级别）时间戳转时间：
 <pre>
-SELECT FROM_UNIXTIME(1701848081); -- 2023-12-06 15:34:41
+SELECT from_unixtime(1701848081); -- 2023-12-06 15:34:41
 <pre>
