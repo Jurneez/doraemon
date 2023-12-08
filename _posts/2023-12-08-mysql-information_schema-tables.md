@@ -15,7 +15,7 @@ mysql> select * from TABLES where TABLE_SCHEMA = 'test' limit 1\G;
      TABLE_TYPE: BASE TABLE  -- 表类型
          ENGINE: InnoDB      -- 表的存储引擎
         VERSION: 10          -- 版本，默认10
-     ROW_FORMAT: Dynamic     -- InnoDB存储引擎下数据记录的存储格式,行格式，DEFAULT | FIXED | DYNAMIC | COMPRESSED | REDUNDANT | COMPACT
+     ROW_FORMAT: Dynamic     -- 行格式
      TABLE_ROWS: 17          -- 表数据条数
  AVG_ROW_LENGTH: 963         -- 平均行长度 AVG_ROW_LENGTH = DATA_LENGTH / TABLE_ROWS
     DATA_LENGTH: 16384       -- 数据长度
@@ -32,3 +32,8 @@ TABLE_COLLATION: utf8mb3_general_ci  -- 表字符校验编码集
   TABLE_COMMENT: 人                  -- 表备注说明
 1 row in set (0.00 sec)
 </pre>
+
+#### 1.1 Row Format行格式
+Row Format行格式是指数据记录(或者称之为行)在磁盘中的物理存储方式。
+
+有DEFAULT、FIXED、DYNAMIC、COMPRESSED、REDUNDANT（MySQL 5.0之前使用）、COMPACT（MySQL 5.0中被引入）等多种格式。
