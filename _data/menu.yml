@@ -12,6 +12,14 @@ entries:
       show_more: true
       show_more_text: See more posts...
       show_more_url: mysql-archive.html
+
+  - title: front end
+    post_list:
+      limit: 5
+      category: front
+      show_more: true
+      show_more_text: See more posts...
+      show_more_url: front-archive.html
       
   - title: all posts
     post_list:
