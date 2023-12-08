@@ -25,6 +25,7 @@ entries:
   
   - title: mysql
     post_list:
+      limit: 5
       category: mysql
       show_more: true
       show_more_text: See more posts...
