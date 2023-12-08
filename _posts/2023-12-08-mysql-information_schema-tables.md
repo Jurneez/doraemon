@@ -3,9 +3,10 @@ layout: post
 title: "mysql information_schema.tables详解"
 category: mysql 
 ---
+
 information_schema.tables表中记录当前mysql中所有表的基本信息。
 
-### 1. 表字段说明
+### 表字段说明
 <pre>
 mysql> select * from TABLES where TABLE_SCHEMA = 'test' limit 1\G;
 *************************** 1. row ***************************
@@ -33,7 +34,7 @@ TABLE_COLLATION: utf8mb3_general_ci  -- 表字符校验编码集
 1 row in set (0.00 sec)
 </pre>
 
-#### 1.1 Row Format行格式
+#### 1 Row Format行格式
 Row Format行格式是指数据记录(或者称之为行)在磁盘中的物理存储方式。
 
 有DEFAULT、FIXED、DYNAMIC、COMPRESSED、REDUNDANT（MySQL 5.0之前使用）、COMPACT（MySQL 5.0中被引入）等多种格式。
