@@ -4,7 +4,7 @@ title: "mysql 数据存储物理位置查询"
 category: mysql 
 ---
 
-以本机mysql为例，进入mysql，支持sql：
+以本机mysql为例，进入mysql，查询sql：
 <pre>
 mysql> show variables like 'datadir';
 +---------------+--------------------------+
