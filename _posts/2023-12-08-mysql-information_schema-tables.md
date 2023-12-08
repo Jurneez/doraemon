@@ -38,3 +38,11 @@ TABLE_COLLATION: utf8mb3_general_ci  -- 表字符校验编码集
 Row Format行格式是指数据记录(或者称之为行)在磁盘中的物理存储方式。
 
 有DEFAULT、FIXED、DYNAMIC、COMPRESSED、REDUNDANT（MySQL 5.0之前使用）、COMPACT（MySQL 5.0中被引入）等多种格式。
+
+FIXED: 在mysql中， 若一张表里面不存在varchar、text以及其变形、blob以及其变形的字段的话，那么张这个表其实也叫静态表，即该表的row_format是fixed，就是说每条记录所占用的字节一样。其优点读取快，缺点浪费额外一部分空间。
+
+DYNAMIC: 若一张表里面存在varchar、text以及其变形、blob以及其变形的字段的话，那么张这个表其实也叫动态表，即该表的row_format是dynamic，就是说每条记录所占用的字节是动态的。其优点节省空间，缺点增加读取的时间开销。
+
+fixed--->dynamic: 这会导致CHAR变成VARCHAR
+
+dynamic--->fixed: 这会导致VARCHAR变成CHAR
