@@ -15,7 +15,7 @@ mysql> select * from TABLES where TABLE_SCHEMA = 'test' limit 1\G;
      TABLE_TYPE: BASE TABLE  -- 表类型
          ENGINE: InnoDB      -- 表的存储引擎
         VERSION: 10          -- 版本，默认10
-     ROW_FORMAT: Dynamic     -- 行格式，Compact|Dynamic|Fixed
+     ROW_FORMAT: Dynamic     -- InnoDB存储引擎下数据记录的存储格式,行格式，DEFAULT | FIXED | DYNAMIC | COMPRESSED | REDUNDANT | COMPACT
      TABLE_ROWS: 17          -- 表数据条数
  AVG_ROW_LENGTH: 963         -- 平均行长度 AVG_ROW_LENGTH = DATA_LENGTH / TABLE_ROWS
     DATA_LENGTH: 16384       -- 数据长度
