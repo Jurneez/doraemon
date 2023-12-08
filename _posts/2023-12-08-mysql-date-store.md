@@ -5,7 +5,7 @@ category: mysql
 ---
 
 ## 1. 数据存储物理位置查询
-以本机mysql为例，进入mysql，查询sql：
+以本机mysql为例，进入mysql，执行sql：
 <pre>
 mysql> show variables like 'datadir';
 +---------------+--------------------------+
@@ -17,9 +17,9 @@ mysql> show variables like 'datadir';
 </pre>
 
 ## 2. innodb存储引擎
-innodb引擎用idb数据文件存储数据。
+innodb引擎用`idb`数据文件存储数据。
 
-比如，test数据库中有people和people_age两个表，起存储方式如下：
+比如，test数据库中有people和people_age两个表，其存储方式如下：
 <pre>
 ╭─user@FVFF875KQ6LR in /opt/homebrew/var/mysql on stable ✔
 ╰$ cd test
