@@ -21,9 +21,9 @@ innodb引擎用`idb`数据文件存储数据。
 
 比如，test数据库中有people和people_age两个表，其存储方式如下：
 <pre>
-╭─user@FVFF875KQ6LR in /opt/homebrew/var/mysql on stable ✔
+╭─user@xxx in /opt/homebrew/var/mysql on stable ✔
 ╰$ cd test
-╭─user@FVFF875KQ6LR in /opt/homebrew/var/mysql/test on stable ✔
+╭─user@xxx in /opt/homebrew/var/mysql/test on stable ✔
 ╰$ tree
 .
 ├── people.ibd
