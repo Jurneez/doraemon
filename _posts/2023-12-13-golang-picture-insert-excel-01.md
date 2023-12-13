@@ -36,5 +36,5 @@ func main() {
 以上代码会使图片保持安装原比例写入，进而遮盖其他单元格内容
 
 其实现效果如下：
-<img src="https://raw.githubusercontent.com/riggraz/no-style-please/master/_screenshots/2023-12-13-golang-picture-insert-excel-01-display.png" />
+<img src="../_screenshots/2023-12-13-golang-picture-insert-excel-01-display.png" />
 

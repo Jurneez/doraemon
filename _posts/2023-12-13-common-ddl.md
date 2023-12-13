@@ -12,4 +12,4 @@ DCL – Data Control Language-数据控制语言
 TCL – Transaction Control Language-事务控制语言
 
 
-<img src="https://raw.githubusercontent.com/riggraz/no-style-please/master/_screenshots/ddl-dql-dml-dcl-tcl-sql.png.png" />
+<img src="../_screenshots/ddl-dql-dml-dcl-tcl-sql.png.png" />
