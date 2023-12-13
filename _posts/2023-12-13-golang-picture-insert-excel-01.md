@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Golang之图片安装原比例插入excel"
-category: mysql 
+category: golang 
 ---
 
 ```golang
