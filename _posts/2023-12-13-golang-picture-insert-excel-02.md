@@ -93,5 +93,5 @@ func main() {
 
 
 其实现效果如下：
-<img src="../_screenshots/2023-12-13-golang-picture-insert-excel-02-display.png" />
+![图片](../_screenshots/2023-12-13-golang-picture-insert-excel-02-display.png)
 
