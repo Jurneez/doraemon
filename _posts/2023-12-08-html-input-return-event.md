@@ -1,7 +1,7 @@
 ---
 layout: post
 title: input 回车触发事件
-category: front 
+category: html 
 ---
 
 ```

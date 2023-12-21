@@ -21,13 +21,13 @@ entries:
       show_more_text: See more posts...
       show_more_url: mysql-archive.html
 
-  - title: front end
+  - title: html
     post_list:
       limit: 5
-      category: front
+      category: html
       show_more: true
       show_more_text: See more posts...
-      show_more_url: front-archive.html
+      show_more_url: html-archive.html
       
   - title: all posts
     post_list:
