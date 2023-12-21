@@ -5,10 +5,10 @@ category: mysql
 ---
 
 #### FLOOR(X) 向下整数
-<pre>
-select FLOOR(1.9); -- 1
-select FLOOR(2.1); -- 2
-</pre>
+
+>select FLOOR(1.9); -- 1
+>select FLOOR(2.1); -- 2
+
 #### CEIL(X)、CEILING(X) 向上取整
 <pre>
 select CEIL(1.9); -- 2
