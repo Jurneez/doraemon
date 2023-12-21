@@ -5,6 +5,14 @@ entries:
       - title: github
         url: https://github.com/Jurneez/doraemon
 
+  - title: golang
+    post_list:
+      limit: 5
+      category: golang
+      show_more: true
+      show_more_text: See more posts...
+      show_more_url: golang-archive.html
+
   - title: mysql
     post_list:
       limit: 5
