@@ -12,6 +12,13 @@ entries:
       show_more: true
       show_more_text: See more posts...
       show_more_url: golang-archive.html
+  - title: linux
+    post_list:
+      limit: 5
+      category: linux
+      show_more: true
+      show_more_text: See more posts...
+      show_more_url: linux-archive.html
 
   - title: mysql
     post_list:
