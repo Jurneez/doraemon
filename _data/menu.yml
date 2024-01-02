@@ -35,6 +35,14 @@ entries:
       show_more: true
       show_more_text: See more posts...
       show_more_url: html-archive.html
+
+  - title: leetcode‘s algorithm
+    post_list:
+      limit: 5
+      category: leetcode_algorithm
+      show_more: true
+      show_more_text: See more posts...
+      show_more_url: leetcode_algorithm-archive.html
       
   - title: all posts
     post_list:
