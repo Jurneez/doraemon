@@ -7,7 +7,10 @@ category: mysql
 日常工作中很多业务表结构都是用InnoDB存储的，了解其存储逻辑对后期学习索引会有很大帮助
 ## InnoDB引擎数据存储框架
 innodb引擎存储逻辑如图：
-![Alt text](https://github.com/Jurneez/doraemon/tree/main/_screenshots/2023-12-14-mysql-innodb-store.png)
+
+![innodb](https://github.com/Jurneez/doraemon/tree/main/_screenshots/2023-12-14-mysql-innodb-store.png)
+![theme logo](https://raw.githubusercontent.com/riggraz/no-style-please/master/logo.png){:.ioda}
+
 其存储单位层级关系为：数据库——〉表空间——〉段——〉区——〉页——〉行
 
 ### 一、表空间
