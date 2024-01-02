@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "算法之相向双指针"
+title: "算法001:相向双指针"
 category: leetcode_algorithm 
 ---
 
