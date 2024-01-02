@@ -17,7 +17,7 @@ category: leetcode_algorithm
 [leetcode链接](https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/)
 
 ####  解题说明
-：有序数组，必有且仅有一对 两数相加等于target。采用相向双指针，定义两个指针，left_index指向最小数，right_index指向最大数，使 最大数+最小数：
+有序数组，必有且仅有一对 两数相加等于target。采用相向双指针，定义两个指针，left_index指向最小数，right_index指向最大数，使 最大数+最小数：
 1. 如果大于target，缩小最大数
 2. 如果小于target，增大最小数
 3. 如此循环，直到 等于target。
