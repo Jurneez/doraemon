@@ -110,3 +110,47 @@ func threeSum(nums []int) [][]int {
 	return res
 }
 </pre>
+
+#### 时间/空间复杂度
+时间复杂度：O(n^2)
+空间复杂度：O(1)
+
+### 3.3 盛最多水的容器 (11)
+[leetcode链接](https://leetcode.cn/problems/container-with-most-water/description/)
+
+#### 代码实现
+以下为go语言代码实现：
+<pre>
+func maxArea(height []int) int {
+	min := func(num1, num2 int) int {
+		if num1 < num2 {
+			return num1
+		}
+		return num2
+	}
+
+	left_index, right_index := 0, len(height)-1
+	max := 0
+    
+	for right_index > left_index {
+		max_t := min(height[left_index], height[right_index]) * (right_index - left_index)
+		if max < max_t {
+			max = max_t
+		}
+
+		if height[left_index] < height[right_index] {
+			left_index++
+		} else {
+			right_index--
+		}
+
+
+	}
+
+	return max
+}
+</pre>
+
+#### 时间/空间复杂度
+时间复杂度：O(n)
+空间复杂度：O(1)
